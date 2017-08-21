@@ -1,0 +1,86 @@
+body {
+  color: #333;
+  font-family: Helvetica Neue;
+}
+hr {
+  border-width: 1px 0 0 0;
+  border-color: #ccc;
+}
+h1,
+h3{
+  display: block;
+  margin: 0;
+  font-family: inherit;
+  color: inherit;
+}
+h1, h3, .index {
+  font-weight: 600;
+}
+p {
+  font-weight: 400;
+}
+#products div.row div div.column div {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+}
+
+@media only screen and (min-width: 736px) {
+  h1 {
+    font-size: 50px;
+    line-height: 52px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .mt-sm {
+    margin-top: 40px !important;
+  }
+  .mt-lg {
+    margin-top: 80px !important;
+  }
+  .index {
+    margin: auto;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 735px) {
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  h3 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .mt-sm {
+    margin-top: 20px !important;
+  }
+  .mt-lg {
+    margin-top: 40px !important;
+  }
+  .index {
+    margin: auto;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
